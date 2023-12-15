@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Unbounded:wght@200;600;700&display=swap');
+
+.container-tasks{
+    display: flex;
+    align-items: center;
+    width: 588px;
+    height: 584px;
+    gap: 8px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.task-list-text {
+    font-size: 26px;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.add-task {
+    display: flex;
+    align-items: center;
+    width: 588px;
+    height: 64px;
+    background:#ffffff8f;
+    Padding: 0px, 16px, 0px, 16px;
+    border-radius: 8px;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  
+  .add-btn {
+    background: none;
+    border: 2px solid #B872FF;
+    padding: 8px;
+    border-radius: 32px;
+    width: 588px;
+    height: 64px;
+    cursor: pointer;
+    color: #B872FF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .btn-del {
+    cursor: pointer;
+  }
+  
+.add-input-task {
+    width: 588px;
+    height: 312px;
+    border-radius: 8px;
+    padding: 16px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.add-input-task input {
+    width: 556px;
+    height: 120px;
+    border-radius: 8px;
+    padding: 16px;
+    gap: 8px;
+    background-color: #98a0a89f;
+}
